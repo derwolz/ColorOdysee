@@ -1,6 +1,16 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `ColorOdysee`,
+    siteUrl: `https://colorodysee.com`,
   },
-  plugins: [],
-}
+  plugins: [
+    "gatsby-plugin-emotion",
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "src/assets/logo-full.png",
+      },
+    },
+    "gatsby-plugin-webpack-bundle-analyser-v2",
+  ],
+};

@@ -1,15 +1,29 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
+import lost from "../assets/lost.webp"
+// styles
 const pageStyles = {
-  color: "#232129",
+  color: "#dcded6",
   padding: "96px",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+}
+const fullbackground = {
+  backgroundColor: "#000",
+  position: "fixed",
+  top: 0,
+  left: 0,
+  zIndex: -2,
+  width: "100vw",
+  height: "100vh",
 }
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
-  maxWidth: 320,
+  maxWidth: 380,
 }
 
 const paragraphStyles = {
@@ -22,21 +36,20 @@ const codeStyles = {
   fontSize: "1.25rem",
   borderRadius: 4,
 }
+const imgStyle = {
 
+}
+// markup
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
+      <div style={fullbackground} />
+      
+      <title>Not found</title>
+      <h1 style={headingStyles}>We're as lost as you are.</h1>
       <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
+    
+        <img src={lost} height={"512px"} width={"512px"} style={imgStyle}  alt={"woman in spacesuit"}/>
         <br />
         <Link to="/">Go home</Link>.
       </p>
@@ -45,5 +58,3 @@ const NotFoundPage = () => {
 }
 
 export default NotFoundPage
-
-export const Head = () => <title>Not found</title>
