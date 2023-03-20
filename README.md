@@ -38,3 +38,4 @@
 
 
 # ColorOdysee
+ColorOdysee is a service that takes images and turns them into products. Currently, ColorOdysee is an Amazon affiliate and will search through amazons database for relevant products. ColorOdysee Works with Eyeshadow
