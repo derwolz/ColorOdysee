@@ -10,7 +10,7 @@
 ## 🚀 Quick start
 
 
-2.  **Start development server.**
+1.  **Start development server.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -22,7 +22,7 @@
     Your site is now running at http://localhost:8000!
 
 
-3.  **Learn more**
+2.  **Learn more**
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
