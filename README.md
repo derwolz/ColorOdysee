@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://colorodysee.com/">
-    <img alt="ColorOdyseeLogo" src="https://colorodysee.com/static/colorodysee-logo-552bfb2524068f29c6bd1bdb43653240.webp" width="200" />
+    <img alt="ColorOdyseeLogo" src="https://colorodysee.com/static/colorodysee-logo-552bfb2524068f29c6bd1bdb43653240.webp" width="600" />
   </a>
 </p>
 <h1 align="center">
